@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/cadastro-usuario.js"></script>
+    <link rel="stylesheet" href="../css/cadastro-usuario.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <img src="https://wallpapers.com/images/hd/spider-man-into-the-spider-verse-4k-h8rz5175kd8vujoc.jpg" alt="" class="fundo">
+    <div class="blur-fundo"></div>
+    <!-- header -->
+    <header>
+        <a href="#" class="Logo">Logo :) </a>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navegacao">
+            <a href="#">Entrar</a>
+            <a href="./view/cadastro-usuario.html">Cadastrar</a>
+           
+        </nav>
+    </header>
+
+    <!-- body -->
+
+     <section>
+         <div class="cadastro">
+            <div class="slaamigo">
+               <img src="https://wallpapers.com/images/hd/spider-man-into-the-spider-verse-4k-h8rz5175kd8vujoc.jpg" alt="" class="cadastro-imagem">
+            </div>
+            <div class="cadastro_body">
+                <div class="cadastro_box">
+                    <h2>Cadastre-se</h2>
+                    <form>  
+                    <!-- input nome -->
+                        <label for="lname" >Nome</label>
+                        <input type="text" name="name" id="name" placeholder="Nome completo"/>
+                    <!-- input email -->
+                        <label for="lname" >Email</label>
+                        <input type="email" name="email" id="email"  placeholder="Email"/>  
+                    
+                    <!-- input cpf -->
+                        <label for="lname" >CPF</label>
+                        <input type="text" id="cpf_cnpj" name="cpf_cnpj" placeholder="CPF"/>
+
+                    <!-- input data de nascimento -->
+                        <label for="lname" >Data de nascimento</label>
+                        <input type="date" name="birthday" id="birthday"/>
+
+                    <!-- input senha -->
+                        <label for="lname" >Senha</label>
+                        <input type="password" name="password" id="password"placeholder="Senha"/>
+
+                    
+                        <div class="termos">
+                            <label for="lname" id="termos-txt">Termos</label>
+                            <input type="checkbox" id="terms" name="terms"/>       
+                        </div>
+                        <div>
+                        <input type="button" class="submit" value="Submit" onclick="cadastro()">
+
+                    </div>
+                        </input>
+                    </form>
+                </div>
+            <!-- box suporte -->
+         <!--    <div class="help">
+                <a href="#">
+                    Precisa de ajuda?
+                </a>
+            </div> -->
+            <!-- footer -->
+          <!--   <div class="login_footer">
+                <div class="login_facebook">
+                    <span><img height="20px" src="assets/img/Facebook_logo.png" alt="facebook"></span>
+                    <span><a href="#">Conectar com o Facebook</a></span>
+                </div>
+
+                <div class="sign_up">
+                    <p>Novo por aqui? <a href="#">Assine agora.</a></p>
+                </div>
+
+                <div class="saiba_mais">
+                    <p>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <a href="#">Saiba mais</a></p>
+                    </div>
+                    </div> -->
+        </div>
+    </div>
+</section>
+
+
+</body>
+</html>
